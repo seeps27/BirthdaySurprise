@@ -3,7 +3,7 @@
 A beautifully crafted, animated birthday surprise website made with love, code, and creativity — full of fireworks, fun facts, flirty layers, and emotional messages. Designed for someone truly special!
 
 ### 🔗 Live Demo:
-[🎉 Click here to experience the surprise!](https://your-username.github.io/your-repo-name/)
+[🎉 Click here to experience the surprise!](https://seeps27.github.io/BirthdaySurprise/)
 
 ---
 
@@ -60,15 +60,15 @@ A beautifully crafted, animated birthday surprise website made with love, code, 
 
 Made with 💖 by  
 **Seependra Singh**  
-📍 [GitHub Profile](https://github.com/seeps27)
+📍 [GitHub Profile](https://github.com/seeps27/)
 
 ---
 
 ## 📬 Contact
 
 For feedback, collaboration, or surprise projects:
-📧 **seependrasingh.dev@gmail.com**  
-📍 GitHub: [@seeps27](https://github.com/seeps27)
+📧 **seependra9569@gmail.com**  
+📍 GitHub: [@seeps27](https://github.com/seeps27/)
 
 ---
 

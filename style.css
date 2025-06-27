@@ -1,0 +1,143 @@
+
+  
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    html, body {
+      width: 100%; height: 100%; overflow: hidden;
+      background: #0f0f0f; color: white;
+    }
+    canvas {
+      position: fixed;
+      top: 0; left: 0; width: 100vw; height: 100vh;
+      z-index: 0;
+    }
+    .layer {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      text-align: center; z-index: 1;
+      opacity: 0; transition: opacity 1s;
+    }
+    .layer.active {
+      opacity: 1; z-index: 2;
+    }
+    .layer h1, .layer h2, .layer p {
+      margin: 12px 0;
+    }
+
+    /* here-------------- */
+    .layer h1 {
+  margin: 12px 0;
+  font-size: 18px;
+  font-style: italic;
+}
+.layer h2,
+.layer p {
+  margin: 12px 0;
+  font-size: 14px;
+  font-style: italic;
+}
+.layer h1,
+.layer h2,
+.layer p {
+  color: #ffffff;
+  text-shadow: 0 0 3px #ffb3ec;
+}
+
+
+/* end---------------  */
+
+    .first-slide h1,
+.first-slide h2 {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.first-slide h1 {
+  font-size: 20px;
+}
+
+.first-slide h1,
+.first-slide h2 {
+  text-shadow: 1px 1px 3px rgba(255, 192, 203, 0.6);
+}
+#typewriterText {
+  font-size: 14px;
+  line-height: 1.8;
+  padding: 0 20px;
+  font-style: italic;
+  color: #ffc0cb;
+}
+
+
+    .next-btn, .choice-btn {
+      margin-top: 20px; padding: 10px 24px;
+      font-size: 16px; border: none; border-radius: 8px;
+      cursor: pointer;
+    }
+    .next-btn { background: #ff416c; color: white; }
+    .choice-btn { background: #ff9f1c; color: black; margin: 5px; }
+
+
+    /* final page  */
+   .late-line {
+  font-size: 22px;
+  font-style: italic;
+  color: #ff6b81;
+  animation: fadeIn 2s ease-in-out;
+}
+.thank-heading {
+  font-size: 48px;
+  font-weight: 700;
+  font-style: italic;
+  color: #ff69b4;
+  font-family: 'Dancing Script', cursive;
+  animation: glowText 2s ease-in-out infinite alternate;
+  letter-spacing: 1px;
+}
+
+
+
+.thank-message {
+  font-size: 18px;
+  margin-top: 20px;
+  font-style: italic;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #ff4e50, #f9d423);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 20px;
+  animation: textPop 1.2s ease-out;
+}
+
+@keyframes glowText {
+  0%   { text-shadow: 0 0 5px #ff1493, 0 0 10px #ff1493; }
+  100% { text-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4; }
+}
+
+@keyframes textPop {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+
+
+  

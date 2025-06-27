@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Anshika Ji 🎉</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+        <!-- 1st slide diloge   -->
+<audio id="introAudio" src="./audio/technical_guruji.mp3" preload="auto"></audio>
+
+        <!-- 2nd slide audio  -->
+        <audio id="crackerAudio" src="./audio/fireworks-29629.mp3" preload="auto"></audio>
+ <!-- 3rd slide audio  -->
+  <audio id="funFactMusic" src="./audio/3rd.mp3" preload="auto"></audio>
+
+  <!-- 4th slide song  -->
+   <audio id="complimentSong" src="./audio/4th.mp3" preload="auto"></audio>
+   <!-- 5th slide  -->
+    <audio id="confessionSong" src="./audio/5th.mp3" preload="auto"></audio>
+<!-- 6th slide song  -->
+
+<audio id="quizMusic" src="rani-lofi.mp3" preload="auto"></audio>
+
+<!-- 7th slide song  -->
+ <audio id="finalSong" src="./audio/tera_yaar_hoon_main.mp3" preload="auto"></audio>
+
+ <!-- pickup line slide  -->
+  <audio id="pickupSong" src="./audio/main_ban_jaunga_tera.mp3" preload="auto"></audio>
+
+
+
+
+<canvas id="particles"></canvas>
+<canvas id="confetti"></canvas>
+
+<div class="layer active first-slide">
+  <h1>Hi Anshika Ji 👋</h1>
+  <h2>Some birthdays are just days...
+But yours?</h2>
+<h2>It deserves fireworks, magic, and a little madness!</h2>
+  <h2>Let the surprise begin 💖</h2>
+  <button class="next-btn">Next ⏩</button>
+</div>
+
+<div class="layer">
+  <h1>🎂 Happy Birthday!</h1>
+  <p id="typewriterText"> “🎂✨ Happy Birthday to a precious soul who’s as rare as a shooting star 🌠 and as warm as the morning sun ☀️! May this new year bring adventures 🚀 that light up your spirit, moments that fill your heart with laughter 😂, and dreams that turn into beautiful realities. You deserve all the happiness 🎁 and peace the world has to offer. The world feels incomplete without you 🌎 because your presence makes it even more beautiful. Keep shining ✨ because it’s your light that makes everything brighter!”
+Happy Birthday, Anshika 🎂✨</p>
+
+  <canvas id="birthdayConfetti" style="position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;"></canvas>
+  <button class="next-btn">Next ⏩</button>
+</div>
+
+<div class="layer">
+  <h1>✨ Fun Facts</h1>
+  <p id="fact">You're amazing and deserve the best! 🌈</p>
+  <button class="next-btn">Next ⏩</button>
+</div>
+
+<div class="layer">
+  <h1>💬 "Here's how I see you..."</h1>
+  <p id="compliment">You shine brighter than the stars 🌟</p>
+  <button class="next-btn">Next ⏩</button>
+</div>
+
+
+<div class="layer">
+  <h1>🙈 A Small Confession...</h1>
+  <h2>May I have the honor of calling you mine? ❤️</h2>
+  <div>
+    <button class="choice-btn" onclick="handleConfession('yes')">Yes 😍</button>
+    <button class="choice-btn" onclick="handleConfession('no')">No 😅</button>
+  </div>
+  <p id="confessionResponse"></p>
+  <button class="next-btn">Next ⏩</button>
+</div>
+
+<div class="layer">
+  <h1>💘 "Try This Birthday Challaenge!"</h1>
+  <p id="pickupQ">Do you believe in one-sided love?</p>
+  <div>
+    <button class="choice-btn" onclick="pickupResponse('yes')">Yes 😍</button>
+    <button class="choice-btn" onclick="pickupResponse('no')">No 😅</button>
+  </div>
+  <p id="pickupA"></p>
+</div>
+
+<div class="layer">
+  <h1 class="late-line">“Wishes don’t expire... especially for someone unforgettable.” 🌸</h1>
+  <h1 class="thank-heading">🎉 Thank You</h1>
+  <h2 class="thank-message">
+    You made it till the end...<br />
+    <span class="gradient-text">But the smile you gave is just the beginning of a beautiful vibe 💫</span>
+  </h2>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
